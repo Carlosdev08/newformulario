@@ -1,0 +1,207 @@
+*{
+    background-color: #eee;
+    box-sizing: border-box;
+    font-family:Verdana,  Tahoma, sans-serif;
+    margin: 0px ;
+    padding: 0;
+    
+}  
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+    border-radius: 5px;
+    margin: 105px 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    max-width: 80%;
+    outline: none;
+    padding: 7px 8px;
+}
+
+
+input[type="number"] {
+    border-radius: 5px;
+    margin: 105px 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #777;
+    max-width: 80%;
+    outline: none;
+    padding: 7px 8px;
+}
+
+
+input[type="submit"] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type="reset"] {
+    background-color: #45a049;  
+    width: 10%;
+    padding: 14px 20px;
+    color: white;
+    margin: 8px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+label {
+    font-weight: bold;
+    color: #444;
+    font-size: 14px;
+}
+
+
+#formulario{
+    margin: 0 auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 500px;
+}
+
+#viejuner{
+    margin: 0 left;
+    align-content: left;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 40px;
+}
+#edad{
+    margin:auto;
+    align-content:flex-start;
+    border-radius: 115px;
+    border: 2px solid #666666;
+    width: 200px;
+}
+
+.summit{
+    margin: 0 auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #e0dada;
+    width: 100px;
+}
+
+
+.box{
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#name{
+    margin: 0 auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 200px;
+}
+#edad{
+    margin: 0 auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 4px solid #666666;
+    width: 200px;
+}
+#email{
+    margin: 15px auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 20px solid;
+    width: 200px;
+}
+
+#apellido{
+    margin: 6px auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 200px;
+}
+#sexo_hombre{
+    margin: 6px auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 20px;
+}
+#sexo_mujer{
+    margin:0;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 55px;
+}
+
+#viejuner{
+    margin: 2px left;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 20px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 2px;
+    margin: 2px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#telefono{
+ 
+    margin: 15px auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 5px solid #727375;
+    width: 200px;
+}
+
+.type{
+    margin: 15px auto;
+    align-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 200px;
+}
+
+input[type="radio"] {
+    margin: 1px ;
+    align-content: space-around;
+    border-radius: 1px;
+    border: 1px solid #666666;
+    width: 200px;
+}

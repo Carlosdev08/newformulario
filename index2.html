@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario "Robo de bicicleta"</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="box" >
+    <form action="formulario.php" method="post">
+
+        <label for="hour">Date:</label>
+        <input type="date" id="date" name="date" placeholder="Name">
+    
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora">
+    
+        <label for="color">Color de la bicicleta:</label>
+        <input type="color" id="color" name="color">
+    
+        <label for="rangoprecio">Rango de precio:</label>
+        <input type="range" id="rangoprecio" name="rangoprecio" min="0" max="1000" >       
+        <label for="tipo">Tipo de bicicleta:</label>
+        <select id="tipo" name="tipo">
+            <optgroup label="paseo">          
+            <option value="señorial">Señorial</option>
+            <option value="anti-plebeyos">Anti-plebeyos</option>
+            <option value="porencimadelhombro">PorEncimaDelHombro</option>        
+        <optgroup label="Montaña">   
+            <option value="hueleflores premium">Hueleflores Premium</option>
+            <option value="fango lover">Fango lover</option> 
+        </optgroup>
+        </optgroup>        
+    </select>         
+    <label for="asesorios">Tipos de Asesorios</label>
+        <select multiple name="asesorios" id="asesorios">
+            <optgroup>
+            <option value="candado">Ruedas</option>
+            <option value="casco">Pegatinas</option>
+            <option value="luces">Cestitas</option>
+            <option value="timbre">Bomba de aire</option>
+            <option value="timbre">Timbre</option>
+            <option value="foco">Focos</option>    
+            <optgroup label="Que Marca Era?">      
+            <option value="specialized">Specialized</option>
+            <option value="orbea">trek</option>
+            <option value="conor">Conor</option>
+            <option value="specialized">Specialized</option>
+            <option value="merida">Merida</option>
+            <option value="scott">Scott</option>
+            <option value="trek">Trek</option>
+            <option value="giant">Giant</option>
+            <option value="cube">Cube</option>
+            <option value="merida">Merida</option>
+            <option value="megamo">Megamo</option>
+            <option value="ghost">Ghost</option>
+            <option value="lapierre">Lapierre</option>
+            <option value="kross">Kross</option>
+            <option value="berria">Berria</option>
+            <option value="focus">Focus</option>
+            <option value="kona">Kona</option>
+            <option value="gt">GT</option>
+        </optgroup>
+    </optgroup>
+        </select>
+        <input type="submit" value="Enviar">
+    
+    </form>    
+</div>
+</body>
+</html>
